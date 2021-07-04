@@ -3,18 +3,19 @@ import {
   FaFacebookSquare,
   FaDribbbleSquare,
   FaTwitterSquare,
+  FaGithubSquare,
 } from "react-icons/fa"
 const SocialLinks = ({ styleClass }) => {
   return (
     <ul className={styleClass}>
       <li>
-        <a href="https://twitter.com">
+        <a href="https://facebook.com">
           <FaFacebookSquare className="social-icon facebook-icon"></FaFacebookSquare>
         </a>
       </li>
       <li>
-        <a href="https://twitter.com">
-          <FaDribbbleSquare className="social-icon dribble-icon"></FaDribbbleSquare>
+        <a href="https://github.com/LEO-YAO2020/MDX_Bolg-Gatsby">
+          <FaGithubSquare className="social-icon dribble-icon"/>
         </a>
       </li>
       <li>

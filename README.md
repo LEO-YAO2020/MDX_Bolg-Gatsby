@@ -1,46 +1,5 @@
 # GATSBY MDX BLOG
 
-## Initially Recorded with V2
-
-#### Changes
-
-1. Layout imported in every page instead of gatsby-browser.js
-2. No Instagram Component
-
-## Project Setup
-
-1. Base - Gatsby Hello World
-2. Components + Imports - ready
-3. main.css + styled components
-4. constants (different setup)
-5. Complete React Components for MDX
-
-## Boring Components
-
-0. Home Page
-1. Navbar
-2. Sidebar
-3. Hero
-4. Footer
-5. Error Page
-6. Newsletter
-
-```html
-<form
-  className="contact-form"
-  name="contact"
-  method="post"
-  netlify-honeypot="bot-field"
-  data-netlify="true"
-  action="/success"
->
-  <input type="hidden" name="bot-field" />
-  <input type="hidden" name="form-name" value="contact" />
-</form>
-```
-
-7. Success Page (optional);
-
 ## Basic MDX Setup
 
 1. Install mdx plugin
