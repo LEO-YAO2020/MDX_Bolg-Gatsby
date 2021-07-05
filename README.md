@@ -1,6 +1,7 @@
 # GATSBY MDX BLOG
 
 ## Basic MDX Setup
+## Based on JAMStack
 
 1. Install mdx plugin
 2. Add `gatsby-plugin-mdx` to gatsby-config
