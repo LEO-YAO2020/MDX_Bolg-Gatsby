@@ -1,6 +1,5 @@
 # GATSBY MDX BLOG
 
-## Basic MDX Setup
 ## Based on JAMStack
 
 1. Install mdx plugin
