@@ -31,7 +31,7 @@ const PostTemplate = ({ data }) => {
             <p>{date}</p>
             <div className="underline"></div>
           </div>
-          <MDXRenderer embeddedImages={embeddedImages}>{body}</MDXRenderer>
+          <MDXRenderer>{body}</MDXRenderer>
         </article>
         {/* banner component */}
         <article>
@@ -51,11 +51,6 @@ export const query = graphql`
         date(formatString: "Do, MMMM  YYYY")
         readTime
         slug
-        embeddedImages {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
         image {
           childImageSharp {
             gatsbyImageData
