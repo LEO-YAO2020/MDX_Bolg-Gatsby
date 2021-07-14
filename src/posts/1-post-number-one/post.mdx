@@ -6,9 +6,20 @@ date: 2021-06-01
 author: Leo Yao
 category: HTML&CSS
 readTime: 50
+embeddedImage:
+  - ./images/html-1.png
+  - ./images/html-2.png
+  - ./images/html-3.png
 ---
 
 import { Link } from 'gatsby'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
+<GatsbyImage
+  image={getImage(props.embeddedImages[0])}
+  alt="random stuff"
+  className="first-inline-img"
+/>
 
 
 
